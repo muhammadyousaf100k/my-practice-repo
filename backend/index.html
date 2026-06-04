@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+        div{
+            background-color: chartreuse;
+        }
+        .first_name
+        {
+            background-color: violet;
+        }
+        #Father_Form    
+        {
+            background-color: azure;
+        }
+        input[type="text"] {
+            background-color: lightyellow;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        * {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        label {
+            display: inline-block;
+            width: 200px; /* gives equal spacing between label and input */
+            margin-bottom: 8px;
+        }
+        input {
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+        input[type="submit"] {
+            width: 200px;
+            background-color: lightblue;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: rgb(106, 27, 159);
+            color: white;
+        }
+        option{
+            width: 200px;
+        }
+        select{
+            width: 200px;
+        }
+    </style>
+</head>
+<body style="text-align: center; background-color: bisque;">
+    <div class="parent">
+    <h1>Forms In HTML</h1>
+
+    <form action="" method="get" id="Registration_Form">
+        <h2>Registration Form With Maximum Input Fields</h2>
+        <div>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" value="Name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email@gmail.com" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required>
+        </div>
+        <div class="Website_Link_Class">
+            <label for="website_link">Enter Website Link</label>
+            <input type="url" name="website_link" id="website_link" placeholder="http//:www.youtube.com">
+        </div>
+        <div>
+            <label for="date_of_birth">Date Of Birth</label>
+            <input type="date" id="date_of_birth" name="date_of_birth">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="Male">Male
+            <input type="radio" id="gender" name="gender" value="Female">Female
+        </div>
+        <div>
+            <label for="courses">Courses</label>
+            <input type="checkbox" id="courses" value="OOP" name="courses">OOP
+            <input type="checkbox" id="courses" value="DB" name="courses">DB
+            <input type="checkbox" id="courses" value="CN" name="courses">CN
+            <input type="checkbox" id="courses" value="DSF" name="courses">DSF
+        </div>
+        <div>
+            <label id="city">City</label>
+            <select name="city" id="city">
+            <option value="Lahore" selected="select">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment_box">Comments</label>
+            <textarea name="comment_box" id="comment_box" rows="6" cols="30" placeholder="Enter A Small Description"></textarea>
+        </div>
+        <div>
+            <label for="f_name">Enter Your First Name</label>
+            <input type="hidden" name="f_name" id="f_name" value="Hidden_field_Yousaf">
+        </div>
+        <div>
+        <label for="Reg_Name">Registration Name</label>
+        <input type="text" id="Reg_Name" name="Reg_Name">
+        </div>
+    </form>
+<!DOCTYPE html>
+<html lang="en">
+        div{
+            background-color: chartreuse;
+        }
+        .first_name
+        {
+            background-color: violet;
+        }
+        #Father_Form    
+        {
+            background-color: azure;
+        }
+        input[type="text"] {
+            background-color: lightyellow;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        * {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        label {
+            display: inline-block;
+            width: 200px; /* gives equal spacing between label and input */
+            margin-bottom: 8px;
+        }
+        input {
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+        input[type="submit"] {
+            width: 200px;
+            background-color: lightblue;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: rgb(106, 27, 159);
+            color: white;
+        }
+        option{
